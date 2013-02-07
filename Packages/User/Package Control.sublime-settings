@@ -1,0 +1,15 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"FileDiffs",
+		"Package Control",
+		"Signatori",
+		"SublimeLinter"
+	],
+	"repositories":
+	[
+		"https://github.com/rockerest/Signatori.git"
+	]
+}

@@ -1,0 +1,7 @@
+[
+    {
+        "keys": ["ctrl+alt+g"],
+        "command": "insert_snippet",
+        "args": {"name": "Packages/User/php-getter.sublime-snippet"}
+    }
+]

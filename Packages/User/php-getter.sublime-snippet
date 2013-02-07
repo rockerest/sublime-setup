@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+public function get${1:$SELECTION}(){
+    return \$this->${2:$SELECTION};
+}
+
+]]></content>
+    <tabTrigger>getter</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
