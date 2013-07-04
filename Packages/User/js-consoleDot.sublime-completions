@@ -4,7 +4,8 @@
         { "trigger": "log", "contents": "console.log( ${1:variable} );$0" },
         { "trigger": "info", "contents": "console.info( ${1:variable} );$0" },
         { "trigger": "warn", "contents": "console.warn( ${1:variable} );$0" },
-        { "trigger": "error", "contents": "console.error( ${1:variable} );$0" }
+        { "trigger": "error", "contents": "console.error( ${1:variable} );$0" },
+        { "trigger": "dir", "contents": "console.dir( ${1:variable} );$0" }
     ]
 }
 
