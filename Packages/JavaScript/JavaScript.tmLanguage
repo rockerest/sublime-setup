@@ -721,6 +721,18 @@
 	        <key>name</key>
 	        <string>meta.function-call.js</string>
 		</dict>
+		<dict>
+	        <key>match</key>
+	        <string>[_A-Z][_A-Z0-9]+</string>
+	        <key>name</key>
+	        <string>variable.constant.js</string>
+		</dict>
+		<dict>
+	        <key>match</key>
+	        <string>[^a-z0-9_-][A-Z]([a-z0-9]+[_A-Z]?)+[\(]*?</string>
+	        <key>name</key>
+	        <string>meta.class.name.js</string>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.js</string>
