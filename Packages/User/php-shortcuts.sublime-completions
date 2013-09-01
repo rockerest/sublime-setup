@@ -2,7 +2,7 @@
     "scope": "source.php",
     "completions":[
         { "trigger": "dmp", "contents": "var_dump( ${1:variable} );$0" },
-        { "trigger": "erroron", "contents": "ini_set( 'error_reporting', E_ALL );\nini_set( 'display_errors', 'On' );\nini_set ('html_errors', 'On' );$0" },
-        { "trigger": "erroroff", "contents": "ini_set( 'error_reporting', ~E_ALL );\nini_set( 'display_errors', 'Off' );\nini_set ('html_errors', 'Off' );$0" }
+        { "trigger": "erroron", "contents": "ini_set( 'error_reporting', E_ALL );\nini_set( 'display_errors', 'On' );\nini_set( 'html_errors', 'On' );$0" },
+        { "trigger": "erroroff", "contents": "ini_set( 'error_reporting', ~E_ALL );\nini_set( 'display_errors', 'Off' );\nini_set( 'html_errors', 'Off' );$0" }
     ]
 }
