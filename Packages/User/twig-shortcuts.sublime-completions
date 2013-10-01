@@ -1,0 +1,6 @@
+{
+    "scope": "source.twig",
+    "completions":[
+        { "trigger": "block", "contents": "{% block ${1:name} %}\n\n{$ endblock %}$0" },
+    ]
+}
