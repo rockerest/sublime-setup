@@ -2,10 +2,20 @@
     "scope": "source.js",
     "completions":[
         { "trigger": "log", "contents": "console.log( ${1:variable} );$0" },
+        { "trigger": "dir", "contents": "console.dir( ${1:variable} );$0" },
         { "trigger": "info", "contents": "console.info( ${1:variable} );$0" },
         { "trigger": "warn", "contents": "console.warn( ${1:variable} );$0" },
         { "trigger": "error", "contents": "console.error( ${1:variable} );$0" },
-        { "trigger": "dir", "contents": "console.dir( ${1:variable} );$0" }
+        { "trigger": "count", "contents": "console.count( ${1:variable} );$0" },
+        { "trigger": "group", "contents": "console.group( ${1:variable} );$0" },
+        { "trigger": "groupCollapsed", "contents": "console.groupCollapsed( ${1:variable} );$0" },
+        { "trigger": "groupEnd", "contents": "console.groupEnd( ${1:variable} );$0" },
+        { "trigger": "time", "contents": "console.time( ${1:variable} );$0" },
+        { "trigger": "timeEnd", "contents": "console.timeEnd( ${1:variable} );$0" },
+        { "trigger": "trace", "contents": "console.trace( ${1:variable} );$0" },
+        { "trigger": "assert", "contents": "console.assert( ${1:variable} );$0" },
+        { "trigger": "table", "contents": "console.table( ${1:variable} );$0" },
+        { "trigger": "profile", "contents": "console.profile( ${1:variable} );$0" },
+        { "trigger": "profileEnd", "contents": "console.profileEnd( ${1:variable} );$0" }
     ]
 }
-
